@@ -19,10 +19,7 @@ export default function Accordian() {
     <>
       <div className="w-full mt-2">
         {faq.map((item, i) => (
-          <div
-            className="overflow-hidden shadow-sm py-5 px-1"
-            key={i}
-          >
+          <div className="overflow-hidden shadow-sm py-5 px-1" key={i}>
             <label htmlFor={item.id}>
               {item.checked ? (
                 <input
@@ -52,7 +49,7 @@ export default function Accordian() {
                   clipRule="evenodd"
                 />
               </svg>
-              <p className="inline-block ml-2 font-medium xl:text-xl w-11/12 cursor-pointer">
+              <p className="inline-block ml-2 font-medium xl:text-xl w-10/12 md:w-11/12 cursor-pointer">
                 {item.question}
               </p>
               <div className="max-h-0 peer-checked:max-h-screen">
