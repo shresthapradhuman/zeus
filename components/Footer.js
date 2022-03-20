@@ -93,7 +93,7 @@ export default function Footer() {
             @2022 All right are reserved. Designed By{" "}
             <Link href={"https://www.shresthapradhuman.com.np/"}>
               <a target="_blank" className="text-black">
-                Shrestha Pradhuman
+                Shrestha
               </a>
             </Link>
           </p>
