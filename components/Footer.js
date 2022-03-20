@@ -63,13 +63,12 @@ export default function Footer() {
                   placeholder="Enter your message"
                   cols="30"
                   rows="10"
-                  class="bg-slate-100 py-2 px-2 mb-2 focus:outline-none"
-                  spellcheck="false"
+                  className="bg-slate-100 py-2 px-2 mb-2 focus:outline-none"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                class=" bg-teal-700 px-4 py-3 text-sm mt-2 text-white rounded-md"
+                className=" bg-teal-700 px-4 py-3 text-sm mt-2 text-white rounded-md"
               >
                 Send Message
               </button>
